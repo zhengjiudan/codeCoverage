@@ -39,7 +39,7 @@ apply plugin: 'com.form.diff-coverage'
 
 diffCoverageReport {
     diffSource {
-        git.compareWith 'refs/remotes/origin/develop'
+        git.compareWith 'refs/remotes/origin/master'
     }
 
     violationRules.failIfCoverageLessThan 0.9
